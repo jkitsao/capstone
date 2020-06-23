@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+    <title>Homevue.ke</title>
 </head>
 <body>
-    
+    <nav class='nav'>
+        <div class='header'><h2 class='logo'>Homevue.ke</h2></div>
+        <ul>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/'>Dashboard</a></li>
+            <li><a href='/'>About us</a></li>
+            <li><a href='/'><button class='login-btn'>Login</button></a></li>
+        </ul>
+    </nav>
+    <div class='first-section'>
+        <div class='overlay'>
+            <div class='search-bar'>
+                <input type='text' placeholder="Enter location in kenya" class='input-box'/>
+                <span><button class='search-btn'>Search</button></span>
+            </div>
+            <div class='filter'> 
+                <button class='filter-btn'>Buy</button>
+                <button class='filter-btn'>Sell</button>
+                <button class='filter-btn'>Rent</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
