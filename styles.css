@@ -136,7 +136,7 @@ nav .login-btn{
     background-color: rgb(226, 215, 215);
     border-radius: 0.5rem;
     width:30%;
-    height:30rem;
+    height:35rem;
     border:none;
     /* box-shadow: 1px 2px 2px 4px rgb(218, 213, 213); */
     margin-left:1rem;
@@ -154,7 +154,7 @@ nav .login-btn{
     /* object-fit: contain; */
 }
 .content-area{
-    padding:1rem;
+    padding:0.7rem;
 }
 .card-head{
     font-size:1.5rem;
