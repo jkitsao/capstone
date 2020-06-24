@@ -1,0 +1,175 @@
+@media only screen and (max-width: 750px) {
+
+    nav ul li{
+        /* text-decoration: none; */
+        list-style:none;
+        font-size:1.1rem;
+        padding-left: 1.2rem;
+    }
+
+
+    .input-box{
+        width:20rem;
+        height:2.5rem;
+        font-size: large;
+        outline: none;
+        padding-left: 2rem;
+        /* border-radius:1rem; */
+        /* padding-left:1rem; */
+        border:none;
+    }
+    .search-btn{
+        padding-top:0.8rem;
+        padding-bottom:0.8rem;
+        width:5rem;
+        outline:none;
+        font-size: medium;
+        border:none;
+        background-color: #17EDD3;
+        color:#651503;
+        cursor:pointer;
+    }
+
+    .second-section{
+        padding:0.3rem;
+        height:80vh;
+    
+    }
+    .card{
+        /* background-color: rgb(226, 215, 215);
+        border-radius: 0.5rem; */
+        /* width:30%; */
+        height:27rem;
+        /* border:none; */
+        /* box-shadow: 1px 2px 2px 4px rgb(218, 213, 213); */
+        margin-left:2rem;
+        /* position: relative; */
+        /* border:1px solid black; */
+        /* min-width: 22rem; */
+        
+    }
+
+    
+    .text-info{
+        /* width:40%;
+        height:auto;*/
+        padding:1rem; 
+        /* text-align: center; */
+        
+    }
+    .text-info p{
+        font-size: large;
+    }
+    .info-head{
+        text-align:center;
+        font-size:large;
+        padding:2rem 0;
+        color:rgb(46, 128, 9);
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .input-box{
+        width:20rem;
+        height:2.5rem;
+        font-size: large;
+        outline: none;
+        padding-left: 2rem;
+        /* border-radius:1rem; */
+        /* padding-left:1rem; */
+        border:none;
+    }
+    .search-btn{
+        padding-top:0.8rem;
+        padding-bottom:0.8rem;
+        width:6rem;
+        outline:none;
+        font-size: medium;
+        border:none;
+        background-color: #17EDD3;
+        color:#651503;
+        cursor:pointer;
+    }
+    nav{
+        padding:0.8rem;
+        background-color:  rgb(3, 3, 44);
+        display:block;
+        color:white;
+        /* justify-content: space-between; */
+        font-weight: 200;
+    }
+    nav ul li{
+        /* text-decoration: none; */
+        list-style:none;
+        font-size:1.1rem;
+        padding-left: 0.8rem;
+    }
+    nav ul{
+        display:block;
+      
+    }
+    .info{
+        display:block;
+        padding:2.5rem;
+    }
+    .text-info{
+        width:100%;
+        /* height:auto; */
+        padding:1rem; 
+        /* text-align: center; */
+        
+    }
+    .section-image{
+        width:100%;
+        height:auto;
+        min-width: 20rem;
+    }
+}
+/* phones and small devices styling starts here */
+
+  @media only screen and (max-width: 400px) {
+    .logo{
+        font-weight: 200;
+        color:yellow;
+        text-align: center;
+    }
+    .input-box{
+        width:13rem;
+        height:2.5rem;
+        font-size: large;
+        outline: none;
+        padding-left: 2rem;
+        /* border-radius:1rem; */
+        /* padding-left:1rem; */
+        /* border:none; */
+    } */
+     .search-btn{
+        padding-top:0.88rem;
+        padding-bottom:0.7rem;
+        width:5rem;
+        outline:none;
+        font-size: medium;
+        border:none;
+        background-color: #17EDD3;
+        color:#651503;
+        cursor:pointer;
+        /* margin-top: -0.5rem; */
+    }
+    nav{
+        padding:0.8rem;
+        background-color:  rgb(3, 3, 44);
+        display:block;
+        color:white;
+        /* justify-content: space-between; */
+        font-weight: 200;
+    }
+    nav ul li{
+        /* text-decoration: none; */
+        list-style:none;
+        font-size:1.1rem;
+        padding-left: 0.8rem;
+    }
+    nav ul{
+        display:block;
+      
+    } 
+  }

@@ -1,6 +1,7 @@
 body{
     padding:0;
     margin:0;
+    font-family: 'Raleway', sans-serif;
 }
 a{
     color:white;
@@ -24,14 +25,16 @@ nav ul{
 nav ul li{
     /* text-decoration: none; */
     list-style:none;
-    font-size:21px;
+    font-size:1.3rem;
+    padding-left: 2rem;
 }
 nav ul li a{
     text-decoration: none;
     margin: 0.3rem;
+    color:#C3E53C;
 }
 nav ul li a:hover{
-    color:yellow;
+    color:rgb(255, 255, 255);
 }
 nav .login-btn{
     padding:0.6rem 1rem;
@@ -42,6 +45,7 @@ nav .login-btn{
     border-radius: 0.5rem;
     cursor:pointer;
     outline: none;
+    border:none;
 }
 /* first section styling */
 .first-section{
@@ -100,4 +104,102 @@ nav .login-btn{
     cursor: pointer;
     background-color: #40F43C;
     font-size: medium;
+}
+.filter-btn:hover{
+   background-color: #043807;
+   color:rgb(243, 235, 235);
+}
+/* second section starts header */
+.second-section{
+    padding:3rem;
+    height:80vh;
+
+}
+.second-section-head{
+    text-align: center;
+    color:blue;
+    /* border-bottom: 1px solid black; */
+
+}
+.second-content{
+    margin-top:4rem;
+}
+.cards{
+    display:flex;
+    justify-content: center;
+    overflow-x: auto;
+    /* overflow-y: auto;  */
+    /* height:100%; */
+    /* padding-left: 10rem; */
+}
+.card{
+    background-color: rgb(226, 215, 215);
+    border-radius: 0.5rem;
+    width:30%;
+    height:30rem;
+    border:none;
+    /* box-shadow: 1px 2px 2px 4px rgb(218, 213, 213); */
+    margin-left:1rem;
+    /* position: relative; */
+    /* border:1px solid black; */
+    min-width: 22rem;
+    
+}
+.card-image{
+    width:100%;
+    height:30%;
+    object-fit: contain;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    /* object-fit: contain; */
+}
+.content-area{
+    padding:1rem;
+}
+.card-head{
+    font-size:1.5rem;
+    color:rgb(3, 56, 7);
+}
+p{
+    font-size:1rem;
+    font-family:sans-serif;
+    color:rgb(8, 133, 106);
+}
+
+
+.info-head{
+    text-align:center;
+    font-size:x-large;
+    padding:2rem 0;
+    color:rgb(46, 128, 9);
+}
+.info{
+    display:flex;
+    padding:2.5rem;
+}
+.image-info{
+    width:50%;
+    height:auto;
+}
+.text-info{
+    width:40%;
+    height:auto;
+    padding:2rem;
+    /* text-align: center; */
+    
+}
+.text-info p{
+    font-size: x-large;
+}
+.info-btn{
+    width:8rem;
+    height:2.5rem;
+    background-color: cyan;
+    border:none;
+    font-size: large;
+}
+.section-image{
+    width:95%;
+    height:auto;
+    min-width: 20rem;
 }
