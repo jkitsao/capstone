@@ -2,6 +2,7 @@ body{
     padding:0;
     margin:0;
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(217, 217, 228);
 }
 a{
     color:white;
@@ -117,7 +118,9 @@ nav .login-btn{
 }
 .second-section-head{
     text-align: center;
-    color:blue;
+    background-color: rgb(1, 1, 20);
+    color:rgb(10, 250, 250);
+    padding:2rem 0;
     /* border-bottom: 1px solid black; */
 
 }
@@ -133,7 +136,7 @@ nav .login-btn{
     /* padding-left: 10rem; */
 }
 .card{
-    background-color: rgb(226, 215, 215);
+    background-color: rgb(250, 242, 242);
     border-radius: 0.5rem;
     width:30%;
     height:35rem;
@@ -143,6 +146,7 @@ nav .login-btn{
     /* position: relative; */
     /* border:1px solid black; */
     min-width: 22rem;
+    box-shadow: -7px 10px 5px -2px rgba(163,153,163,1);
     
 }
 .card-image{
@@ -161,7 +165,7 @@ nav .login-btn{
     color:rgb(3, 56, 7);
 }
 p{
-    font-size:1rem;
+    font-size:1.4rem;
     font-family:sans-serif;
     color:rgb(8, 133, 106);
 }
