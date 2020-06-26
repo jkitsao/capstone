@@ -175,7 +175,7 @@ p{
 }
 .info{
     display:flex;
-    padding:2.5rem;
+    padding:2rem;
 }
 .image-info{
     width:50%;
@@ -184,7 +184,7 @@ p{
 .text-info{
     width:40%;
     height:auto;
-    padding:2rem;
+    /* padding:1rem; */
     /* text-align: center; */
     
 }
@@ -202,4 +202,56 @@ p{
     width:95%;
     height:auto;
     min-width: 20rem;
+}
+
+.form-cont{
+    margin-top:1rem;
+}
+.form-cont{
+    width:80%;
+    height:auto;
+    background-color: rgb(8, 1, 31);
+    padding:1rem 1.4rem;
+    color:white;
+    font-weight:200;
+    
+}
+.news-heading{
+    text-align: center;
+    margin-bottom:2rem;
+}
+.form-reg-area{
+    display:flex;
+    justify-content: center;
+}
+.news-letter-form{
+    width:100%;
+    padding:0 0.5rem;
+}
+.input-name{
+    width:100%
+}
+.type-name{
+    width:100%;
+    height:1.9rem;
+    margin:0.5rem 0;
+    font-size:1.1rem;
+    padding-left: 1rem;
+}
+.type-email{
+    width:100%;
+    height:1.9rem;
+    margin:0.5rem 0;
+    font-size:1.1rem;
+    padding-left: 1rem;
+}
+.news-submit{
+    width:7rem;
+    height:2rem;
+    font-size:1.1rem;
+    background-color: green;
+    color:white;
+    outline:none;
+    border:none;
+    margin-top: 1.5rem;
 }
